@@ -1,0 +1,91 @@
+.header {
+  width: 100%;
+  height: 102px;
+  display: flex;
+  color: #282c34;
+  font-family: "Roboto Slab";
+}
+.header-left {
+  width: 732px;
+  height: 100%;
+}
+.header-top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header-charges {
+  margin-right: 70px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.header-incomes {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+.header-bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header-bottom-wrapper {
+  display: flex;
+}
+.my-charges {
+  margin-right: 34px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.weaks {
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+.arrow-icon {
+  width: 15px;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+.header-line {
+  background-color: #f1404b;
+  height: 2px;
+  width: 699px;
+  margin: 0px;
+  border: none;
+}
+
+.balance {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.balance-tittle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 114.69%;
+  text-align: center;
+}
+.sum {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 114.69%;
+  text-align: center;
+  box-sizing: border-box;
+}
